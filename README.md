@@ -27,3 +27,6 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
     sudo chmod +x virtualhost
 
     sudo virtualhost create rsite.dev my_sutom_dir_full_path
+
+### CertBot in case configured
+    sudo certbot --apache -d www.yourdomain.com
